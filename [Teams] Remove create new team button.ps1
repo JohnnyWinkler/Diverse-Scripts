@@ -27,7 +27,7 @@ if($GroupName)
 {
     $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -Filter "DisplayName eq '$GroupName'").objectId
 }
- else {
+else {
 $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
 }
 Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy

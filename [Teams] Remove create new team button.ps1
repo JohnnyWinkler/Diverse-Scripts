@@ -1,6 +1,11 @@
 # Als erstes muss eine neue Sicherheitsgruppe erstellt werden. Diese nenne ich in diesem Beispiel "CreateNewTeams".
 # Dort müssen nun alle Benutzer hinzugefügt werden, welche keinen Schaltfläche haben sollen.
 
+# Vorherige AzureADPreview entfernen und neu installieren
+Uninstall-Module AzureADPreview
+Uninstall-Module azuread
+Install-Module AzureADPreview
+
 # Verbindung mit Teams Connector herstellen
 Connect-MicrosoftTeams -Credential $O365cred
 $session = New-CsOnlineSession -Credential $O365cred

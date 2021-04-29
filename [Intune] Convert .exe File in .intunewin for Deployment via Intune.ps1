@@ -2,4 +2,4 @@
 # Das Repository kann hier von Github heruntergeladen werden: https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool
 
 cd C:\Microsoft-Win32-Content-Prep-Tool
-.\IntuneWinApp.Util.exe -c [SourceFolder] -s [SourceEXEFile] -o [DestinationFolder] -q
+.\IntuneWinAppUtil.exe -c [SourceFolder] -s [SourceEXEFile] -o [DestinationFolder] -q

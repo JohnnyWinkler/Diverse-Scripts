@@ -18,3 +18,7 @@
 - <b>PDF24:</b> C:\Program Files (x86)\PDF24\unins000.exe
 - <b>TeamViewer Host:</b> C:\Program Files (x86)\TeamViewer\uninstall.exe
 - <b>VLC:</b> C:\Program Files\VideoLAN\VLC\uninstall.exe
+7. Bei den Anforderungen würde ich jeweils x64 als Betriebsystemarchitektur auswählen und die älteste Windows Version (Windows 10 1607). Bei Bedarf können noch Speicherplatz etc. definiert werden. Dies ist aber optional.
+8. Bei den Erkennungsregeln als Formal soll "Erkennungsregeln manuell konfigurieren" ausgewählt werden. Danach kann man wie bei den Deinstallationsbefehlen den korrekten Pfad nehmen und anschliessend die .exe Datei der Anwendung auswählen. Als überprüfung sollte diejenige Option ausgewählt sein welche prüft ob die Datei vorhanden ist oder nicht.
+9. Abhängigkeiten und Ablösungen sind optional und wurden bei mir nicht verwendet.
+10. Für die Zuweisung habe ich im vorfeld eine neue Sicherheitsgruppe "Intune App Deployment" erstellt. Nun kann bei der Zuweisung bei Erforderlich die Sicherheitsgruppe ausgewählt werden. Dies führt nämlich dazu, dass die Anwendungen automatisch auf dem Client installiert werden.

@@ -1,6 +1,6 @@
 # Diverse-Scripts
 ## App deployment mit Microsoft Intune
-1. Anwendung gemäss der Vorlage ["Convert .exe File in .intunewin for Deployment via Intune.ps1"](https://github.com/JohnnyWinkler/Diverse-Scripts/blob/main/Endpoint%20Manager/Convert%20.exe%20File%20in%20.intunewin%20for%20Deployment%20via%20Intune.ps1) für Intune vorbereiten.
+1. Anwendung gemäss der Vorlage [Convert .exe File in .intunewin for Deployment via Intune.ps1](https://github.com/JohnnyWinkler/Diverse-Scripts/blob/main/Endpoint%20Manager/Convert%20.exe%20File%20in%20.intunewin%20for%20Deployment%20via%20Intune.ps1) für Intune vorbereiten.
 2. In den Endpoint Manager (https://endpoint.microsoft.com/) wechseln und nach <b><i>[Apps > Windows](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsWindowsMenu/windowsApps)</b></i> navigieren.
 3. Auf "Hinzufügen" klicken und als App-Typ "Windows-App (Win32) auswählen. Danach kann im weiteren Schritt die zuvor erstellte .intunewin Datei ausgewählt werden.
 4. Nun kann ein Benutzerfreundliche(r) Name und Beschreibung hinzugefügt werden. Zusätzlich muss noch der Herausgeber eingetragen werden.

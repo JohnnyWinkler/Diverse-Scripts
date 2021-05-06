@@ -14,6 +14,7 @@ Nebst Scripts werden auch ein paar kleine Guides hier im README aufgelistet und 
 - <b>TeamViewer Host:</b> TeamViewer_Host_Setup.exe /S
 - <b>VLC:</b> vlc-3.0.12-win64.exe /S
 - <b>Visual Studio Code:</b> VSCodeSetup-x64-1.56.0.exe /VERYSILENT /NORESTART /MERGETASKS=!runcode
+- <b>Microsoft PowerToys:</b> PowerToysSetup-0.37.0-x64.exe --silent
 6. Als Deinstallationsbefehl muss der jeweilige Pfad zur uninstall.exe (oder wie sie dementsprechend auch heissen wird) angegeben werden. Auch hier habe ich ein paar Beispiele von Anwendungen die ich im Einsatz habe.
 - <b>7-Zip:</b> C:\Program Files\7-Zip\Uninstall.exe
 - <b>Firefox:</b> C:\Program Files\Mozilla Firefox\uninstall\helper.exe /s

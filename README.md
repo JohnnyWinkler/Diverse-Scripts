@@ -10,9 +10,9 @@ Nebst Scripts werden auch ein paar kleine Guides hier im README aufgelistet und 
 - <b>7-Zip:</b> 7z1900-x64.exe /S
 - <b>Firefox:</b> “Firefox Setup 88.0.exe” -ms
 - <b>Google Chrome:</b> ChromeSetup.exe /silent /install
-- <b>PDF24:</b> pdf24-creator-10.0.12.exe /VERYSILENT /NORESTART
-- <b>TeamViewer Host:</b> TeamViewer_Host_Setup.exe /S
-- <b>VLC:</b> vlc-3.0.12-win64.exe /S
+- <b>[PDF24:](javascript:void(startCreatorDownload('private', '10.0.12'));)</b> pdf24-creator-10.0.12.exe /VERYSILENT /NORESTART
+- <b>[TeamViewer Host:](https://download.teamviewer.com/download/TeamViewer_Host_Setup.exe)</b> TeamViewer_Host_Setup.exe /S
+- <b>[VLC:](https://get.videolan.org/vlc/3.0.12/win64/vlc-3.0.12-win64.exe)</b> vlc-3.0.12-win64.exe /S
 - <b>[Visual Studio Code:](https://code.visualstudio.com/docs/?dv=win64)</b> VSCodeSetup-x64-1.56.0.exe /VERYSILENT /NORESTART /MERGETASKS=!runcode
 - <b>[Microsoft PowerToys:](https://github.com/microsoft/PowerToys/releases/download/v0.37.0/PowerToysSetup-0.37.0-x64.exe)</b> PowerToysSetup-0.37.0-x64.exe --silent
 6. Als Deinstallationsbefehl muss der jeweilige Pfad zur uninstall.exe (oder wie sie dementsprechend auch heissen wird) angegeben werden. Auch hier habe ich ein paar Beispiele von Anwendungen die ich im Einsatz habe.

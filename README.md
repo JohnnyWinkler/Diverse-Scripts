@@ -7,9 +7,9 @@ Nebst Scripts werden auch ein paar kleine Guides hier im README aufgelistet und 
 3. Auf "Hinzufügen" klicken und als App-Typ "Windows-App (Win32) auswählen. Danach kann im weiteren Schritt die zuvor erstellte .intunewin Datei ausgewählt werden.
 4. Nun kann ein Benutzerfreundliche(r) Name und Beschreibung hinzugefügt werden. Zusätzlich muss noch der Herausgeber eingetragen werden.
 5. Als Installationbefehl können folgende verwendet werden. Diese sind jeweils als Silent Install definiert, damit der Benutzer von der Installation nichts mitkriegt.
-- <b>7-Zip:</b> 7z1900-x64.exe /S
-- <b>Firefox:</b> “Firefox Setup 88.0.exe” -ms
-- <b>Google Chrome:</b> ChromeSetup.exe /silent /install
+- <b>[7-Zip:](https://www.7-zip.org/a/7z1900-x64.exe)</b> 7z1900-x64.exe /S
+- <b>[Firefox:](https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=de)</b> “Firefox Setup 88.0.exe” -ms
+- <b>[Google Chrome:](https://www.google.com/intl/de/chrome/)</b> ChromeSetup.exe /silent /install
 - <b>[PDF24:](https://creator.pdf24.org/download/?version=10.0.12&tou=exe)</b> pdf24-creator-10.0.12.exe /VERYSILENT /NORESTART
 - <b>[TeamViewer Host:](https://download.teamviewer.com/download/TeamViewer_Host_Setup.exe)</b> TeamViewer_Host_Setup.exe /S
 - <b>[VLC:](https://get.videolan.org/vlc/3.0.12/win64/vlc-3.0.12-win64.exe)</b> vlc-3.0.12-win64.exe /S

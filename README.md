@@ -1,4 +1,6 @@
 # Diverse-Scripts
+In diesem Repository werden hilfreiche Scripts abgelegt, welche mir hin und wieder schon in diversen Situationen geholfen haben. Dieses Repo wird laufend aktualisiert.
+Nebst Scripts werden auch ein paar kleine Guides hier im README aufgelistet und mit einem Permalink ausgestattet.
 ## App deployment mit Microsoft Intune
 1. Anwendung gemäss der Vorlage [Convert .exe File in .intunewin for Deployment via Intune.ps1](https://github.com/JohnnyWinkler/Diverse-Scripts/blob/main/Endpoint%20Manager/Convert%20.exe%20File%20in%20.intunewin%20for%20Deployment%20via%20Intune.ps1) für Intune vorbereiten Die Anwendung kann [hier](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) heruntergeladen werden.
 2. In den Endpoint Manager (https://endpoint.microsoft.com/) wechseln und nach <b><i>[Apps > Windows](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsWindowsMenu/windowsApps)</b></i> navigieren.

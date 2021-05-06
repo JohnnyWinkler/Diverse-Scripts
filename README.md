@@ -13,13 +13,15 @@ Nebst Scripts werden auch ein paar kleine Guides hier im README aufgelistet und 
 - <b>PDF24:</b> pdf24-creator-10.0.12.exe /VERYSILENT /NORESTART
 - <b>TeamViewer Host:</b> TeamViewer_Host_Setup.exe /S
 - <b>VLC:</b> vlc-3.0.12-win64.exe /S
+- <b>Visual Studio Code:</b> VSCodeSetup-x64-1.56.0.exe /VERYSILENT /NORESTART /MERGETASKS=!runcode
 6. Als Deinstallationsbefehl muss der jeweilige Pfad zur uninstall.exe (oder wie sie dementsprechend auch heissen wird) angegeben werden. Auch hier habe ich ein paar Beispiele von Anwendungen die ich im Einsatz habe.
 - <b>7-Zip:</b> C:\Program Files\7-Zip\Uninstall.exe
-- <b>Firefox:</b> C:\Program Files\Mozilla Firefox\uninstall\helper.exe
-- <b>Google Chrome:</b> C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+- <b>Firefox:</b> C:\Program Files\Mozilla Firefox\uninstall\helper.exe /s
+- <b>Google Chrome:</b> C:\Program Files (x86)\Google\Chrome\Application\90.0.4430.93\Installer\setup.exe --uninstall --multi-install --chrome --system-level
 - <b>PDF24:</b> C:\Program Files (x86)\PDF24\unins000.exe
 - <b>TeamViewer Host:</b> C:\Program Files (x86)\TeamViewer\uninstall.exe
 - <b>VLC:</b> C:\Program Files\VideoLAN\VLC\uninstall.exe
+- <b>Visual Studio Code:</b> C:\Program Files\Microsoft VS Code\unins000.exe" /VERYSILENT /NORESTART
 7. Bei den Anforderungen würde ich jeweils x64 als Betriebsystemarchitektur auswählen und die älteste Windows Version (Windows 10 1607). Bei Bedarf können noch Speicherplatz etc. definiert werden. Dies ist aber optional.
 8. Bei den Erkennungsregeln als Formal soll "Erkennungsregeln manuell konfigurieren" ausgewählt werden. Danach kann man wie bei den Deinstallationsbefehlen den korrekten Pfad nehmen und anschliessend die .exe Datei der Anwendung auswählen. Als überprüfung sollte diejenige Option ausgewählt sein welche prüft ob die Datei vorhanden ist oder nicht.
 9. Abhängigkeiten und Ablösungen sind optional und wurden bei mir nicht verwendet.

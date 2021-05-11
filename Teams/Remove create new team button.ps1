@@ -1,5 +1,13 @@
 # Als erstes muss eine neue Sicherheitsgruppe erstellt werden. Diese nenne ich in diesem Beispiel "CreateNewTeams".
 # Dort müssen nun alle Benutzer hinzugefügt werden, welche keinen Schaltfläche haben sollen.
+# Frage für weiterfahren hinzugefügt
+$title    = 'Es wird empfohlen erst weiterzufahren, wenn im Voraus eine neue Sicherheitsgruppe mit dem Namen "CreateNewTeams" hinzugefügt wurde.'
+$question = 'Bist du sicher das du weiterfahren möchtest?'
+$choices  = '&Yes', '&No'
+
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+
+if ($decision -eq 0) {
 
 # Vorherige AzureADPreview entfernen und neu installieren
 Uninstall-Module AzureADPreview
@@ -38,3 +46,7 @@ $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
 Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
 
 (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
+
+} else {
+    exit
+}

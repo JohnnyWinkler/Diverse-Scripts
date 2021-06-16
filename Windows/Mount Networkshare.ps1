@@ -1,0 +1,1 @@
+New-PSDrive -Name [Buchstabe] -Root [UNC-Pfad] -Persist  -PSProvider FileSystem
